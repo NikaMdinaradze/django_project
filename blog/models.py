@@ -11,10 +11,6 @@ class Post(models.Model):
     date_posted = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
-    class Meta:
-        verbose_name = 'პოსტი'
-        verbose_name_plural = 'პოსტები'
-
     def __str__(self):
         return self.title
 
