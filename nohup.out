@@ -1,0 +1,9 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 07, 2023 - 10:19:36
+Django version 5.0, using settings 'django_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
